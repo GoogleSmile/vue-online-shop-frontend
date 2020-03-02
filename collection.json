@@ -53358,182 +53358,187 @@
                       "text": ""
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "explain",
-              "fixed": true,
-              "children": [
+                },
                 {
-                  "type": "paragraph",
+                  "type": "image",
+                  "url": ".tuture/assets/微信图片_20200302232332.png",
                   "children": [
                     {
                       "text": ""
                     }
                   ]
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "file": "src/store/getters.js",
+              "display": true,
+              "type": "file",
+              "children": [
+                {
+                  "text": ""
                 }
               ]
             }
           ]
         },
         {
-          "file": "src/store/getters.js",
-          "display": true,
-          "type": "file",
+          "type": "explain",
+          "fixed": true,
           "children": [
             {
-              "type": "explain",
-              "fixed": true,
+              "type": "heading-three",
               "children": [
                 {
-                  "type": "heading-three",
-                  "children": [
-                    {
-                      "text": "抽取 Getters 逻辑"
-                    }
-                  ],
-                  "id": "fwRO6Hqe"
+                  "text": "抽取 Getters 逻辑"
+                }
+              ],
+              "id": "fwRO6Hqe"
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "我们首先创建了"
                 },
                 {
-                  "type": "paragraph",
-                  "children": [
-                    {
-                      "text": "我们首先创建了"
-                    },
-                    {
-                      "code": true,
-                      "text": "src/store/getters.js"
-                    },
-                    {
-                      "text": "文件，用于存放各种不同类型的"
-                    },
-                    {
-                      "code": true,
-                      "text": "getter"
-                    },
-                    {
-                      "text": "属性和方法。这里我们导出了两个对象分别为"
-                    },
-                    {
-                      "code": true,
-                      "text": "productGetters"
-                    },
-                    {
-                      "text": "和"
-                    },
-                    {
-                      "code": true,
-                      "text": "manufacturerGetters"
-                    },
-                    {
-                      "text": "，前者包含了有关商品的"
-                    },
-                    {
-                      "code": true,
-                      "text": "getter"
-                    },
-                    {
-                      "text": "属性与方法，后者包含了有关制造商的"
-                    },
-                    {
-                      "code": true,
-                      "text": "getter"
-                    },
-                    {
-                      "text": "属性与方法。"
-                    }
-                  ]
+                  "code": true,
+                  "text": "src/store/getters.js"
+                },
+                {
+                  "text": "文件，用于存放各种不同类型的"
+                },
+                {
+                  "code": true,
+                  "text": "getter"
+                },
+                {
+                  "text": "属性和方法。这里我们导出了两个对象分别为"
+                },
+                {
+                  "code": true,
+                  "text": "productGetters"
+                },
+                {
+                  "text": "和"
+                },
+                {
+                  "code": true,
+                  "text": "manufacturerGetters"
+                },
+                {
+                  "text": "，前者包含了有关商品的"
+                },
+                {
+                  "code": true,
+                  "text": "getter"
+                },
+                {
+                  "text": "属性与方法，后者包含了有关制造商的"
+                },
+                {
+                  "code": true,
+                  "text": "getter"
+                },
+                {
+                  "text": "属性与方法。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "diff-block",
+          "file": "src/store/getters.js",
+          "commit": "f0b5684",
+          "hiddenLines": [],
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "fixed": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "在"
+                },
+                {
+                  "code": true,
+                  "text": "productGetters"
+                },
+                {
+                  "text": "对象中定义的就是有关商品的"
+                },
+                {
+                  "code": true,
+                  "text": "getter"
+                },
+                {
+                  "text": "属性和方法，如"
+                },
+                {
+                  "code": true,
+                  "text": "allProducts"
+                },
+                {
+                  "text": "，"
+                },
+                {
+                  "code": true,
+                  "text": "productById"
+                },
+                {
+                  "text": "等等；在"
+                },
+                {
+                  "code": true,
+                  "text": "manufacturerGetters"
+                },
+                {
+                  "text": "对象中定义的就是有关制造商的"
+                },
+                {
+                  "code": true,
+                  "text": "getter"
+                },
+                {
+                  "text": "属性和方法，如"
+                },
+                {
+                  "code": true,
+                  "text": "allManufacturers"
+                },
+                {
+                  "text": "等等。"
                 }
               ]
             },
             {
-              "type": "diff-block",
-              "file": "src/store/getters.js",
-              "commit": "f0b5684",
-              "hiddenLines": [],
+              "type": "block-quote",
               "children": [
                 {
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": ""
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "explain",
-              "fixed": true,
-              "children": [
-                {
-                  "type": "paragraph",
-                  "children": [
-                    {
-                      "text": "在"
-                    },
-                    {
-                      "code": true,
-                      "text": "productGetters"
-                    },
-                    {
-                      "text": "对象中定义的就是有关商品的"
-                    },
-                    {
-                      "code": true,
-                      "text": "getter"
-                    },
-                    {
-                      "text": "属性和方法，如"
-                    },
-                    {
-                      "code": true,
-                      "text": "allProducts"
-                    },
-                    {
-                      "text": "，"
-                    },
-                    {
-                      "code": true,
-                      "text": "productById"
-                    },
-                    {
-                      "text": "等等；在"
-                    },
-                    {
-                      "code": true,
-                      "text": "manufacturerGetters"
-                    },
-                    {
-                      "text": "对象中定义的就是有关制造商的"
-                    },
-                    {
-                      "code": true,
-                      "text": "getter"
-                    },
-                    {
-                      "text": "属性和方法，如"
-                    },
-                    {
-                      "code": true,
-                      "text": "allManufacturers"
-                    },
-                    {
-                      "text": "等等。"
-                    }
-                  ]
-                },
-                {
-                  "type": "block-quote",
-                  "children": [
-                    {
-                      "type": "paragraph",
-                      "children": [
-                        {
-                          "text": "我们可以采用属性调用和方法调用的方式调用这里的getter(根据我们在getter对象中定义的是属性还是方法)"
-                        }
-                      ]
+                      "text": "我们可以采用属性调用和方法调用的方式调用这里的getter(根据我们在getter对象中定义的是属性还是方法)"
                     }
                   ]
                 }

@@ -1,9 +1,13 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
+import Vue from "vue";
+import Vuex from "vuex";
 
-import { productGetters, manufacturerGetters } from './getters';
-import { productMutations, cartMutations, manufacturerMutations } from './mutations';
-import { productActions, manufacturerActions } from './actions';
+import { productGetters, manufacturerGetters } from "./getters";
+import {
+  productMutations,
+  cartMutations,
+  manufacturerMutations
+} from "./mutations";
+import { productActions, manufacturerActions } from "./actions";
 
 Vue.use(Vuex);
 
@@ -21,19 +25,19 @@ export default new Vuex.Store({
     // all manufacturers
     manufacturers: [],
     // selected manufacturer
-    manufacturer: {},
+    manufacturer: {}
   },
   mutations: {
     ...productMutations,
     ...cartMutations,
-    ...manufacturerMutations,
+    ...manufacturerMutations
   },
   getters: {
     ...productGetters,
-    ...manufacturerGetters,
+    ...manufacturerGetters
   },
   actions: {
     ...productActions,
-    ...manufacturerActions,
+    ...manufacturerActions
   }
 });
