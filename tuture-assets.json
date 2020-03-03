@@ -62,5 +62,9 @@
   {
     "localPath": ".tuture/assets/image.png",
     "hostingUri": "https://imgkr.cn-bj.ufileos.com/962fc2e8-6ea9-4734-b4b9-17dea8692778.png"
+  },
+  {
+    "localPath": ".tuture/assets/cover-6.png",
+    "hostingUri": "https://imgkr.cn-bj.ufileos.com/504c83ec-1719-4eef-9bf9-e2e83147db54.png"
   }
 ]
