@@ -3,8 +3,14 @@
   "description": "Vue 是尤雨溪在2014年创建的一个前端框架，目前 Github Star 数高达150K，是 Star 数最高的前端项目，并且 Vue 有着极为活跃的社区生态以及专职团队进行维护以确保项目可以健康长久的发展。\n\n目前中国很多互联网公司前端程序员的招聘要求都要求程序员掌握 Vue，像滴滴、美团、饿了么等大厂也在重度使用 Vue 进行开发，并且有着像 Element 、mpvue、iView 这样优秀的基于 Vue 的开源项目存在，所以学习 Vue 是一个不错的投资，当你学会 Vue，就可以快速开发项目，这样不仅可以接外包挣外快，而且当有了一定的项目经验，还可以在一线互联网大厂找到一份不错的工作。\n\n看到这里你心动了嘛？心动不如行动！而最幸运的是，本教程将会一步一步带你以实战的方式实现一个 real-life （真实世界中的运行的）项目，并在实战的过程中，了解 Vue 的全貌，现在就打开电脑，跟随者我的脚步，这一次彻底掌握 Vue 开发！",
   "id": "092faf468f0108b393159a8456de3e15",
   "created": "2019-10-17T00:00:00.509Z",
-  "topics": ["Vue"],
-  "categories": ["前端", "Vue", "入门"],
+  "topics": [
+    "Vue"
+  ],
+  "categories": [
+    "前端",
+    "Vue",
+    "入门"
+  ],
   "articles": [
     {
       "name": "从零到部署：用 Vue 和 Express 实现迷你全栈电商应用（一）",
@@ -23,7 +29,10 @@
     {
       "name": "从零到部署：用 Vue 和 Express 实现迷你全栈电商应用（四）",
       "description": "随着前端应用的日渐复杂，状态和数据管理成为了构建大型应用的关键。受 Redux 等项目的启发，Vue.js 团队也量身定做了状态管理库 Vuex。在这篇教程中，我们将带你熟悉 Store、Mutation 和 Action 三大关键概念，并升级迷你商城应用的前端代码。",
-      "topics": ["Vue", "Vuex"],
+      "topics": [
+        "Vue",
+        "Vuex"
+      ],
       "id": "ae8a389b0b6f1fb121a6881d2ec2544f",
       "created": "2020-01-10T00:00:00.509Z",
       "cover": ".tuture/assets/cover-4.jpg"
@@ -31,7 +40,10 @@
     {
       "name": "从零到部署：用 Vue 和 Express 实现迷你全栈电商应用（五）",
       "description": "组件化和逻辑复用能帮助写出简洁易懂的代码，随着应用越写越复杂，我们有必要把视图层中重复的逻辑抽成组件，以求在多个页面中复用；同时对于 Vuex 端，Store 中的逻辑也会越来越臃肿，我们有必要使用 Vuex 提供的 Getters 来复用本地数据获取逻辑。在这篇教程中，我们将带领你抽出 Vue 组件简化页面逻辑，使用 Vuex Getters 复用本地数据获取逻辑。",
-      "topics": ["Vue", "Vuex"],
+      "topics": [
+        "Vue",
+        "Vuex"
+      ],
       "id": "6f96d15",
       "created": "2020-02-11T00:00:00.509Z",
       "cover": ".tuture/assets/cover-5.jpg"
@@ -39,8 +51,11 @@
     {
       "id": "-OixkkqI",
       "name": "从零到部署：用 Vue 和 Express 实现迷你全栈电商应用（六）",
-      "topics": ["Vue.js", "Vuex"],
-      "cover": ".tuture/assets/cover-6.png",
+      "topics": [
+        "Vue.js",
+        "Vuex"
+      ],
+      "cover": ".tuture/assets/cover-6.jpg",
       "description": "前面五篇教程我们已经基本实现了迷你全栈电商应用的界面展示以及功能逻辑，相信大家在这个过程中都收获颇丰，并且迈向了全栈工程师的第一步。但是我们却并不满足于此，我们还需要对我们的项目代码进行优化，使得我们的代码可读性更高，也更好维护。相信细心的你们已经感觉到了项目中的store实例实在是过于臃肿，因此，本篇教程就是带大家一起学习如何抽出 Getters 、 Mutations 和Actions 逻辑实现store的“减重”以及如何干掉 mutation-types 硬编码。",
       "created": "2020-03-03T00:00:00.509Z"
     }
@@ -3251,7 +3266,9 @@
               "type": "diff-block",
               "file": "src/router/index.js",
               "commit": "056d555",
-              "hiddenLines": [7],
+              "hiddenLines": [
+                7
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -3891,7 +3908,12 @@
               "type": "diff-block",
               "file": "src/router/index.js",
               "commit": "19a30e7",
-              "hiddenLines": [9, 10, 11, 12],
+              "hiddenLines": [
+                9,
+                10,
+                11,
+                12
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -4096,7 +4118,19 @@
               "type": "diff-block",
               "file": "src/router/index.js",
               "commit": "4bad80e",
-              "hiddenLines": [16, 17, 18, 19, 20, 21, 47, 48, 49, 50, 51],
+              "hiddenLines": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                47,
+                48,
+                49,
+                50,
+                51
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -20606,7 +20640,13 @@
               "type": "diff-block",
               "file": "src/main.js",
               "commit": "f2fa516",
-              "hiddenLines": [13, 14, 15, 16, 17],
+              "hiddenLines": [
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -34235,7 +34275,14 @@
               "type": "diff-block",
               "file": "src/main.js",
               "commit": "0dfeb91",
-              "hiddenLines": [0, 1, 2, 3, 11, 12],
+              "hiddenLines": [
+                0,
+                1,
+                2,
+                3,
+                11,
+                12
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -34876,7 +34923,10 @@
               "type": "diff-block",
               "file": "src/pages/admin/Products.vue",
               "commit": "0dfeb91",
-              "hiddenLines": [0, 1],
+              "hiddenLines": [
+                0,
+                1
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -35437,7 +35487,22 @@
               "type": "diff-block",
               "file": "src/store/index.js",
               "commit": "7b7d864",
-              "hiddenLines": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+              "hiddenLines": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -35806,7 +35871,9 @@
               "type": "diff-block",
               "file": "src/pages/Home.vue",
               "commit": "7b7d864",
-              "hiddenLines": [15],
+              "hiddenLines": [
+                15
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -35879,7 +35946,11 @@
               "type": "diff-block",
               "file": "src/pages/Cart.vue",
               "commit": "7b7d864",
-              "hiddenLines": [0, 1, 32],
+              "hiddenLines": [
+                0,
+                1,
+                32
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -49550,7 +49621,20 @@
               "type": "diff-block",
               "file": "src/store/index.js",
               "commit": "5ff8afe",
-              "hiddenLines": [8, 9, 10, 11, 12, 13, 14, 64, 65, 66, 67, 68],
+              "hiddenLines": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                64,
+                65,
+                66,
+                67,
+                68
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -51836,7 +51920,21 @@
               "type": "diff-block",
               "file": "src/pages/admin/Products.vue",
               "commit": "ff121fa",
-              "hiddenLines": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 20],
+              "hiddenLines": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                20
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -52014,7 +52112,15 @@
               "type": "diff-block",
               "file": "src/components/products/ProductItem.vue",
               "commit": "ff121fa",
-              "hiddenLines": [34, 35, 36, 37, 38, 39, 40],
+              "hiddenLines": [
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -53115,7 +53221,9 @@
               "type": "diff-block",
               "file": "src/pages/admin/Products.vue",
               "commit": "f0b5684",
-              "hiddenLines": [73],
+              "hiddenLines": [
+                73
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -55617,7 +55725,21 @@
               "type": "diff-block",
               "file": "src/store/getters.js",
               "commit": "49571dc",
-              "hiddenLines": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+              "hiddenLines": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -56608,7 +56730,10 @@
               "type": "diff-block",
               "file": "src/store/actions.js",
               "commit": "49571dc",
-              "hiddenLines": [87, 88],
+              "hiddenLines": [
+                87,
+                88
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -56795,7 +56920,16 @@
               "type": "diff-block",
               "file": "src/store/mutations.js",
               "commit": "49571dc",
-              "hiddenLines": [69, 70, 71, 72, 73, 74, 87, 88],
+              "hiddenLines": [
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                87,
+                88
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -56938,7 +57072,12 @@
               "type": "diff-block",
               "file": "build/webpack.base.conf.js",
               "commit": "19b49e9",
-              "hiddenLines": [113, 114, 115, 116],
+              "hiddenLines": [
+                113,
+                114,
+                115,
+                116
+              ],
               "children": [
                 {
                   "type": "paragraph",
@@ -56989,7 +57128,15 @@
               "type": "diff-block",
               "file": "src/pages/Home.vue",
               "commit": "19b49e9",
-              "hiddenLines": [0, 1, 2, 3, 4, 5, 6],
+              "hiddenLines": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
               "children": [
                 {
                   "type": "paragraph",
